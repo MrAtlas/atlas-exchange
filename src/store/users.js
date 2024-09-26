@@ -1,8 +1,3 @@
-import Marco from "/public/teampics/marco.jpeg";
-import Chiara from "/public/teampics/chiara.jpg";
-import Cesare from "/public/teampics/cesare.jpeg";
-import Sebastiano from "/public/teampics/sebastiano.jpeg";
-import Pietro from "/public/teampics/pietro.jpeg";
 
 export const users = [
   {
@@ -11,12 +6,8 @@ export const users = [
     surname: "Maggio",
     username: "magichiara",
     email: "info.chiaramaggio@gmail.com",
-    pic: Chiara,
+    pic: "https://randomuser.me/api/portraits/women/1.jpg",
     password: "coding",
-    social: {
-      linkedin: "https://www.linkedin.com/in/chiaramaggio",
-      github: "https://github.com/magichiara",
-    },
     assets: {
       coins: [],
       nft: [],
@@ -30,12 +21,8 @@ export const users = [
     surname: "Tomasello",
     username: "cesare28",
     email: "cesare.tomasello@outlook.com",
-    pic: Cesare,
+    pic: "https://randomuser.me/api/portraits/men/1.jpg",
     password: "coding",
-    social: {
-      linkedin: "https://www.linkedin.com/in/cesare-tomasello",
-      github: "https://github.com/Cesare-Tomasello",
-    },
     assets: {
       coins: [],
       nft: [],
@@ -49,12 +36,8 @@ export const users = [
     surname: "Rivera",
     username: "marcoriv",
     email: "marcorivera.dev@gmail.com",
-    pic: Marco,
+    pic: "https://randomuser.me/api/portraits/men/1.jpg",
     password: "coding",
-    social: {
-      linkedin: "https://www.linkedin.com/in/marcorivera92/",
-      github: "https://github.com/marcorivera92",
-    },
     assets: {
       coins: [],
       nft: [],
@@ -68,12 +51,8 @@ export const users = [
     surname: "Di Stefano",
     username: "pietro23",
     email: "pietrodistefano2306@gmail.com",
-    pic: Pietro,
+    pic: "https://randomuser.me/api/portraits/men/1.jpg",
     password: "coding",
-    social: {
-      linkedin: "https://www.linkedin.com/in/pietro-di-stefano-a92475222",
-      github: "https://github.com/pietrodistefano23",
-    },
     assets: {
       coins: [],
       nft: [],
@@ -87,12 +66,8 @@ export const users = [
     surname: "Occhipinti",
     username: "sebastiano25",
     email: "sebastianoocchipinti25@gmail.com ",
-    pic: Sebastiano,
+    pic: "https://randomuser.me/api/portraits/men/1.jpg",
     password: "coding",
-    social: {
-      linkedin: "https://www.linkedin.com/in/sebastianoocchipinti25/",
-      github: "https://github.com/theBoneless25",
-    },
     assets: {
       coins: [],
       nft: [],
