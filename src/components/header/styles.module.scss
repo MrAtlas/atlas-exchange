@@ -1,0 +1,116 @@
+.main {
+  display: flex;
+  padding: 1rem;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  .name_date {
+    display: none;
+    h2 {
+      color: var(--details-main-color);
+    }
+    @media only screen and (min-width: 1280px) {
+      display: block;
+    }
+  }
+
+  .logo {
+    @media only screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+
+  .auth_data {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.8rem;
+    position: relative;
+
+    .user_icon {
+      display: flex;
+      font-size: 2.8rem;
+      color: lightgray;
+    }
+
+    button {
+      position: absolute;
+      border: none;
+      border-radius: 0.6rem;
+      padding: 0 10px;
+      right: 55px;
+      font-weight: 500;
+      background-color: transparent;
+      color: black;
+      letter-spacing: 0.1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      svg {
+        color: var(--details-main-color);
+        font-size: 1.5rem;
+      }
+
+      @media only screen and (min-width: 768px) {
+        svg {
+          font-size: 2rem;
+        }
+      }
+
+      @media only screen and (min-width: 1280px) {
+        display: none;
+      }
+    }
+
+    img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
+      z-index: 1;
+
+      @media only screen and (min-width: 1280px) {
+        display: none;
+      }
+    }
+  }
+
+  .page_label {
+    h1 {
+      font-size: 1rem;
+      font-weight: 600;
+
+      @media only screen and (min-width: 768px) {
+        font-size: 1.4rem;
+      }
+    }
+    @media only screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+
+  .motion {
+    animation: rotation 1.3s linear;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: translateX(0) rotate(0deg);
+    animation-timing-function: ease-out;
+  }
+  40% {
+    transform: translateX(-40px);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(50px);
+  }
+}

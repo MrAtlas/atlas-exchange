@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root {
+  --navbar-height: 10vh;
+  --header-height: 70px;
+  --page-padding: 1.3rem 1rem;
+  --bg-color: #131224;
+  --box-color: #292641;
+  --details-base-color: #5a5868;
+  --details-main-color: #c0fb34;
+  --details-secondary-color: #b375ef;
+  --details-tertiary-color: #20d9e2;
+  --details-quaternary-color: #dd41e5;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    background-color: var(--bg-color);
+    height: 100vh;
+  }
+}
+
+/* Stile della scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+}
+
+/* Stile del "pulgar" della scrollbar (il pulsante che si trascina) */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(64, 61, 91, 1);
+}
+
+/* Stile della scrollbar quando viene trascinata */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--details-main-color);
+}
+
+/* Stile della scrollbar quando viene trascinata con il mouse */
+::-webkit-scrollbar-thumb:active {
+  background-color: var(--details-secondary-color);
+}

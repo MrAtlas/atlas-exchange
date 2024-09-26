@@ -1,0 +1,33 @@
+.main {
+  /*   .navbar {
+    position: fixed;
+  } */
+
+  .widgetbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .main {
+    display: flex;
+    height: 100vh;
+    padding: 1rem;
+
+    .navbar {
+      flex: 0.15;
+      height: 100%;
+    }
+
+    .hero {
+      flex-direction: column;
+      flex: 0.6;
+      overflow-y: hidden;
+    }
+
+    .widgetbar {
+      flex: 0.25;
+      display: block;
+    }
+  }
+}

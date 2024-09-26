@@ -1,0 +1,58 @@
+.main {
+  width: 100%;
+  height: calc(90vh - (var(--navbar-height) + var(--header-height)));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  padding: var(--page-padding);
+  overflow-x: hidden;
+
+  @media only screen and (min-width: 1280px) {
+    height: 89vh;
+  }
+
+  .title {
+    align-self: flex-start;
+    color: white;
+  }
+
+  .right_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    @media only screen and (min-width: 768px) {
+      flex-direction: row;
+      gap: 1.3rem;
+    }
+
+    @media only screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+
+  .left_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @media only screen and (min-width: 768px) {
+      height: 100vh;
+    }
+
+    @media only screen and (min-width: 1280px) {
+      height: 100vh;
+    }
+  }
+
+  .coins {
+    width: 100%;
+
+    @media only screen and (min-width: 768px) {
+    }
+  }
+}
